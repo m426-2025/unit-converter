@@ -1,8 +1,8 @@
 # Einheitsrechner
 
-Das bei uns gebräuchliche [metrische System]() verwendet Masseinheiten, die sich jeweils um den Faktor zehn voneinander unterscheiden. (Beispiel: ein Meter sind zehn Dezimeter; ein Dezimenter sind zehn Zentimeter; ein Zentimeter sind zehn Millimeter.)
+Das bei uns gebräuchliche [metrische System](https://de.wikipedia.org/wiki/Metrisches_Einheitensystem) verwendet Masseinheiten, die sich jeweils um den Faktor zehn voneinander unterscheiden. (Beispiel: ein Meter sind zehn Dezimeter; ein Dezimenter sind zehn Zentimeter; ein Zentimeter sind zehn Millimeter.)
 
-Das [imperiale System]() hingegen, das noch in den USA gebräuchlich ist, verwendet jedoch andere Umrechnungsregeln. Die Umrechnung von einer Einheit (z.B. Meile) in eine andere (z.B. Yard) ist daher nicht trivial und erfordert eine Umrechentabelle für diese Einheiten.
+Das [imperiale System](https://de.wikipedia.org/wiki/Imperiales_Einheitensystem) hingegen, das noch in den USA gebräuchlich ist, verwendet jedoch andere Umrechnungsregeln. Die Umrechnung von einer Einheit (z.B. Meile) in eine andere (z.B. Yard) ist daher nicht trivial und erfordert eine Umrechentabelle für diese Einheiten.
 
 ## Aufgabe
 
