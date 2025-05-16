@@ -8,7 +8,7 @@ describe("imperial units", () => {
     [1, "yard", 0.9144],
     [1, "foot", 0.3048],
     [1, "inch", 0.0254],
-  ])("%s %s in meters", (value: number, unit: Unit, expected) => {
+  ])("convertToMeters(%s, %s) = %s", (value: number, unit: Unit, expected) => {
     expect(convertToMeters(value, unit)).toBeCloseTo(expected);
   });
 
@@ -19,7 +19,7 @@ describe("imperial units", () => {
     [10, "yard", 10 * 0.9144],
     [3, "foot", 3 * 0.3048],
     [100, "inch", 100 * 0.0254],
-  ])("%s %s in meters", (value: number, unit: Unit, expected) => {
+  ])("convertToMeters(%s, %s) = %s", (value: number, unit: Unit, expected) => {
     expect(convertToMeters(value, unit)).toBeCloseTo(expected);
   });
 });
@@ -28,14 +28,14 @@ describe("metric units", () => {
   test.each([
     [1, "meter", 1],
     [1, "centimeter", 0.01],
-  ])("%s %s in meters", (value: number, unit: Unit, expected) => {
+  ])("convertToMeters(%s, %s) = %s", (value: number, unit: Unit, expected) => {
     expect(convertToMeters(value, unit)).toBeCloseTo(expected);
   });
 
   test.each([
     [2, "meter", 2],
     [50, "centimeter", 0.5],
-  ])("%s %s in meters", (value: number, unit: Unit, expected) => {
+  ])("convertToMeters(%s, %s) = %s", (value: number, unit: Unit, expected) => {
     expect(convertToMeters(value, unit)).toBeCloseTo(expected);
   });
 });
