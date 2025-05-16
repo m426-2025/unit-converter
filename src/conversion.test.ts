@@ -4,6 +4,7 @@ describe("imperial units", () => {
   test.each([
     [1, "league", 4828.032],
     [1, "mile", 1609.344],
+    [1, "furlong", 201.168],
     [1, "yard", 0.9144],
     [1, "foot", 0.3048],
     [1, "inch", 0.0254],
@@ -14,6 +15,7 @@ describe("imperial units", () => {
   test.each([
     [2, "league", 2 * 4828.032],
     [0.5, "mile", 0.5 * 1609.344],
+    [4.75, "furlong", 4.75 * 201.168],
     [10, "yard", 10 * 0.9144],
     [3, "foot", 3 * 0.3048],
     [100, "inch", 100 * 0.0254],
