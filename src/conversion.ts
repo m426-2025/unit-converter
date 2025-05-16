@@ -1,5 +1,7 @@
-export const conversionTable = {
-  league: [3, "miles"],
+export type Conversion = [number, Unit];
+
+export const conversionTable: {[unit: string]: Conversion} = {
+  league: [3, "mile"],
   mile: [1760, "yard"],
   // TODO: introduce "furlong" (as 22 yards; equal to 201.168 meters)
   yard: [3, "foot"],
