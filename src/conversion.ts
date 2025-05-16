@@ -9,7 +9,9 @@ export const conversionTable = {
   meter: [1, "meter"],
 };
 
-export function convertToMeters(value: number, unit: string): number {
+export type Unit = "league" | "mile" | "yard" | "foot" | "inch" | "centimeter" | "meter";
+
+export function convertToMeters(value: number, unit: Unit): number {
   let miles: number,
     yards: number,
     feet: number,
